@@ -33,13 +33,13 @@ export default function Header() {
 
           <div className="hidden lg:flex items-center gap-4">
             <Link
-              href="#"
+              href="/login"
               className="text-sm font-medium text-gray-700 hover:text-black transition-colors"
             >
               Entrar
             </Link>
             <Link
-              href="#abrir"
+              href="/login"
               className="bg-[#C5A961] text-black px-6 py-2.5 text-sm font-semibold hover:bg-[#D4BC7D] transition-colors"
             >
               Abrir conta
@@ -77,11 +77,11 @@ export default function Header() {
               Ajuda
             </Link>
             <div className="pt-4 border-t border-gray-100 space-y-3">
-              <Link href="#" className="block text-base font-medium text-gray-700">
+              <Link href="/login" className="block text-base font-medium text-gray-700">
                 Entrar
               </Link>
               <Link
-                href="#abrir"
+                href="/login"
                 className="block bg-[#C5A961] text-black text-center px-6 py-3 text-base font-semibold"
               >
                 Abrir conta
